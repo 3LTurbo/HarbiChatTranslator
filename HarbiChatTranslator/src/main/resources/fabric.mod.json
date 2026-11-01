@@ -1,0 +1,6 @@
+{
+ "schemaVersion":1,"id":"harbichattranslator","version":"${version}","name":"Harbi Chat Translator",
+ "description":"Arabic/English chat translation with mention and DM alerts.","environment":"client",
+ "entrypoints":{"client":["com.harbi.chat.HarbiChatTranslator"]},
+ "depends":{"fabricloader":">=0.17.0","minecraft":"1.21.10","java":">=21","fabric-api":"*"}
+}
